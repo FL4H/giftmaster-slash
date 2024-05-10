@@ -24,10 +24,10 @@ client.once('ready', () => {
   client.user.setActivity(`${config.status}`, { type: "WATCHING" }); // Set the bot's activity status
     /* You can change the activity type to:
      * LISTENING
-     * WATCHING
+     * PLAYING
      * COMPETING
      * STREAMING (you need to add a twitch.tv url next to type like this:   { type: "STREAMING", url: "https://twitch.tv/twitch_username_here"} )
-     * PLAYING (default)
+     * WATCHING (default)
     */
 });
 
